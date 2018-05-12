@@ -11,7 +11,7 @@ BOT_DATA_DIR = r'/root/errbot/data'
 BOT_EXTRA_PLUGIN_DIR = r'/root/errbot/plugins'
 
 BOT_IDENTITY = {
-    'token': 'xoxb-247103507941-7cHoMFmBi3ctJyLpDGnl9hjl'
+    'token': ''
 }
 
 BOT_LOG_FILE = r'/root/errbot/errbot.log'
