@@ -1,0 +1,9 @@
+[Core]
+Name = COMMAND
+Module = command
+
+[Documentation]
+Description = COMMAND plugin
+
+[Python]
+Version = 3
