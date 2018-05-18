@@ -10,8 +10,8 @@ class AWS(BotPlugin):
     """
     
     def _connect(self,region):
-        access_key="AKIAJHYEFKFE6Z3KV26A"
-        secret_key="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"
+        access_key=""
+        secret_key=""
         self.ec2 = boto3.resource("ec2", region_name=region,aws_access_key_id=access_key,aws_secret_access_key=secret_key)
         return self.ec2
 
