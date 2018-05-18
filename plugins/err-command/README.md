@@ -9,7 +9,7 @@ pip install boto3
 Installation
 ---
 ```
-!repos install https://github.com/FundacaoLemann/err-aws-plugin.git
+
 ```
 
 Usage
