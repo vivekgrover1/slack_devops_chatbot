@@ -17,6 +17,6 @@ BOT_IDENTITY = {
 BOT_LOG_FILE = r'/root/errbot/errbot.log'
 BOT_LOG_LEVEL = logging.ERROR
 
-BOT_ADMINS = ('@vivek271091', )  # !! Don't leave that to "@CHANGE_ME" if you connect your errbot to a chat system !!
+BOT_ADMINS = ('', )  # !! Don't leave that to "@CHANGE_ME" if you connect your errbot to a chat system !!
 
 CORE_PLUGINS = ('ACLs', 'Help','repomgr')
