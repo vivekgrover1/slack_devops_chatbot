@@ -14,6 +14,10 @@ git clone https://github.com/vivekgrover1/err-aws-plugin.git
 
 WORKDIR /root/errbot/
 
-COPY config.py /root/bot/
+COPY config.py errbot_start.sh /root/errbot/
+
+RUN chmod u+x errbot_start.sh
 
 ENV ANSIBLE_HOST_KEY_CHECKING=False
+
+ENTRYPOINT ["/root/errbot/errbot_start.sh"]
