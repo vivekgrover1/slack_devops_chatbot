@@ -1,0 +1,18 @@
+version: '3.2'
+services:
+
+   errbot:
+     container_name: errbot_chatbot
+     build:
+       context: .
+       dockerfile: Dockerfile
+     environment:
+     - AWS_ACCESS_KEY=
+     - AWS_SECRET_KEY=
+     restart: always
+     volumes:
+      - type: bind
+        source: 
+        target: /root/errbot/ec2_key.pem
+        volume:
+          nocopy: true
