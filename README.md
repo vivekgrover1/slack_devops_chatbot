@@ -35,5 +35,5 @@ volumes:
 ### Run the errbot chatbot with docker-compose command
 ```
 docker-compose up
-docker-compose -d for daemon mode
+docker-compose up -d for daemon mode
 ```
