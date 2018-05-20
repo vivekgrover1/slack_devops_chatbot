@@ -1,19 +1,13 @@
 #!/bin/bash
 
-env | grep AWS_ACCESS_KEY
-
-if [ `echo $?` != 0 ]
-then
+if [ -z "$AWS_ACCESS_KEY" ]; then
 echo "AWS_ACCESS_KEY env variable is not set, you will not be able to use AWS Plugin"
 fi
 
-env | grep AWS_SECRET_KEY
-
-
-if [ `echo $?` != 0 ]
-then
+if [ -z "$AWS_SECRET_KEY" ]; then
 echo "AWS_SECRET_KEY env variable is not set, you will not be able to use AWS Plugin"
 fi
+
 
 if [ -f "/root/errbot/ec2_key.pem" ]
 then
