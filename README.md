@@ -5,6 +5,8 @@ It is based on [errbot](http://errbot.io) project.
 
 ```
 !repos install https://github.com/vivekgrover1/err-jenkins-plugins.git
+!repos install https://github.com/vivekgrover1/err-aws-plugin.git
+!repos install https://github.com/vivekgrover1/err-command-plugin.git
 ```
 
 
