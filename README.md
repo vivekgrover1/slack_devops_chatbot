@@ -1,6 +1,8 @@
 # slack_chatbot
 It is based on [errbot](http://errbot.io) project.
 
+
+# setup with docker-compose
 ### Step 1 clone the project
 
 ```
