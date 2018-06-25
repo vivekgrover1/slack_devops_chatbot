@@ -1,9 +1,9 @@
-# errbot
+# slack_chatbot
 
 ### Step 1 clone the project
 
 ```
-git clone https://github.com/vivekgrover1/errbot.git
+git clone https://github.com/vivekgrover1/slack_chatbot.git
 ```
 ### Step 2 edit the config.py with SLACK BOT Token
 
@@ -32,7 +32,7 @@ volumes:
         target: /root/errbot/ec2_key.pem
 ```
 
-### Run the errbot chatbot with docker-compose command
+### Run the slack chatbot with docker-compose command
 ```
 docker-compose up
 docker-compose up -d for daemon mode
