@@ -4,7 +4,8 @@ It is based on [errbot](http://errbot.io) project.
 ## Install plugin for errbot
 
 ```
-!repos install [https://github.com/vivekgrover1/err-jenkins-plugins.git](https://github.com/vivekgrover1/err-jenkins-plugins.git)
+!repos install https://github.com/vivekgrover1/err-jenkins-plugins.git
+```
 
 
 ## setup with docker-compose
