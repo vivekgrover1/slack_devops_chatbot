@@ -1,4 +1,4 @@
-# slack_chatbot
+# slack_devops_chatbot
 It is based on [errbot](http://errbot.io) project.
 
 ## Install plugin for errbot
